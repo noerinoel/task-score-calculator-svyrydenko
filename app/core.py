@@ -6,6 +6,7 @@ def calculate_priority_score(urgency: int, impact: int, complexity: int) -> int:
     return urgency * 3 + impact * 2 - complexity
 
 
+
 def classify_priority(score: int) -> str:
     if score >= 16:
         return "high"
