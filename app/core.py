@@ -15,6 +15,7 @@ def classify_priority(score: int) -> str:
     return "low"
 
 
+
 def analyze_task(urgency: int, impact: int, complexity: int) -> dict:
     score = calculate_priority_score(urgency, impact, complexity)
     priority = classify_priority(score)
