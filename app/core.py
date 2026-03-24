@@ -3,7 +3,7 @@ from app.validation import validate_task_data
 
 def calculate_priority_score(urgency: int, impact: int, complexity: int) -> int:
     validate_task_data(urgency, impact, complexity)
-    return urgency * 2 + impact * 2 - complexity
+    return urgency * 3 + impact * 2 - complexity
 
 
 
