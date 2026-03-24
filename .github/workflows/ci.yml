@@ -31,3 +31,4 @@ jobs:
 
             - name: Run security scan
               run: bandit -r app
+
